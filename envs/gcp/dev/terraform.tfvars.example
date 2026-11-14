@@ -1,0 +1,7 @@
+project     = "your-gcp-project"
+environment = "dev"
+region      = "asia-northeast1"
+bucket_name = "expenseportal-mc-dev-2026"
+tags = {
+  Owner = "platform-team"
+}

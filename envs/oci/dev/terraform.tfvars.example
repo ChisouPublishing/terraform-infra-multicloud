@@ -1,0 +1,8 @@
+project        = "expense-portal"
+environment    = "dev"
+region         = "ap-tokyo-1"
+bucket_name    = "expenseportal-mc-dev-2026"
+compartment_id = "ocid1.compartment.oc1..REPLACE_WITH_YOUR_COMPARTMENT"
+tags = {
+  Owner = "platform-team"
+}

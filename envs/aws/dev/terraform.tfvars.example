@@ -1,0 +1,7 @@
+project     = "expense-portal"
+environment = "dev"
+region      = "ap-northeast-1"
+bucket_name = "expenseportal-mc-dev-2026"
+tags = {
+  Owner = "platform-team"
+}
