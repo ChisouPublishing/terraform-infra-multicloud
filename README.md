@@ -10,7 +10,7 @@
 - 対象外: アプリ実行基盤、ロードバランサー、マネージド PostgreSQL、Secrets、監視、CI/CD
 - 実 AWS / GCP / Azure / OCI への `apply` は未実行です。検証済みの範囲は [`docs/verification.md`](docs/verification.md) を参照してください。
 
-書籍本体の実装は `codes/terraform-infra` にあり、この試作は独立したフォルダで管理します。既存のモジュールや環境には手を加えません。
+書籍本体の実装は `terraform-infra` にあり、この試作は独立したフォルダで管理します。既存のモジュールや環境には手を加えません。
 
 ## 構成
 
@@ -47,7 +47,7 @@ bucket_name, bucket_id, storage_endpoint
 ### 1. 静的検証（クラウド認証不要）
 
 ```bash
-cd codes/terraform-infra-multicloud
+cd terraform-infra-multicloud
 terraform fmt -check -recursive
 ./scripts/check.sh
 ```
